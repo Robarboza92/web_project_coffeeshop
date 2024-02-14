@@ -6,61 +6,69 @@
   font-size: 16px;
   line-height: 20px;
   background-color: #fff;
-  display: flex;
+  background-image: url(/images/background_header.svg);
+  background-size: cover;
   justify-content: center;
 }
 
 .header {
   display: flex;
-  min-width: 800px;
-  max-height: 720px;
+  flex-direction: column;
   height: 100vh;
-  background-image: url(/images/background_header.svg);
-  justify-content: center;
-  flex-wrap: wrap;
+  min-height: 720px;
+  max-height: 800px;
+  padding: 30px 80px 40px;
+  position: relative;
+  box-sizing: border-box;
 }
 
-.header__logo {
+.nav_links {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0;
+}
+
+.header_logo {
   width: 105px;
   height: 39px;
   position: relative;
-  top: 30px;
-  left: 30px;
+  top: 0px;
+  left: 0px;
 }
 
 .header__menu {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-left: 750px;
-  margin-top: 30px;
-  margin-right: 80px;
+  align-items: flex-end;
   list-style-type: none;
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-}
-.nav__link {
-  margin-left: 20px;
+  column-gap: 20px;
+  padding: 0;
+  margin: 0;
 }
 
-.header__image {
-  width: 646px;
-  height: 568px;
+.nav__link {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .header__title {
   max-width: 729px;
   margin-top: 183px;
-  margin-left: 80px;
+  margin-bottom: 0;
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
   font-size: 60px;
   line-height: 72px;
-  letter-spacing: 1px;
+  letter-spacing: -1px;
 }
 
 .Header__title_azul {
@@ -71,6 +79,44 @@
   line-height: 72px;
   color: #2f80ed;
 }
+
+.description {
+  max-width: 683px;
+  margin-top: 28px;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.header__image {
+  z-index: 1;
+  width: 646px;
+  height: 568px;
+  position: absolute;
+  top: 124px;
+  right: 5px;
+}
+
+.header__footer {
+  margin-top: auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  box-sizing: border-box;
+}
+
+.header__paragraph {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383;
+}
+
 .content {
 }
 
