@@ -54,7 +54,7 @@
   margin: 0;
 }
 
-.header__nav__link {
+.header__nav-link {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
@@ -157,9 +157,8 @@
   line-height: 30px;
 }
 
-.recipes__videos {
+.recipes__content {
   display: flex;
-
   align-items: center;
   justify-content: center;
   column-gap: 40px;
@@ -168,11 +167,11 @@
   box-sizing: border-box;
 }
 
-.recipes__iframe {
+.recipes__video {
   display: flex;
   flex-direction: column;
 }
-.iframe {
+.recipes__iframe {
   border: none;
 }
 
