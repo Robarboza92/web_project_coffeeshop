@@ -25,7 +25,7 @@
   background-size: cover;
 }
 
-.header__nav__links {
+.header__nav-links {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -54,7 +54,7 @@
   margin: 0;
 }
 
-.nav__link {
+.header__nav__link {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
@@ -75,7 +75,7 @@
   letter-spacing: -1px;
 }
 
-.header__title__azul {
+.header__title-azul {
   font-family: "Noto Serif";
   font-style: italic;
   font-weight: normal;
