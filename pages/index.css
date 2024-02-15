@@ -32,7 +32,7 @@
   padding: 0;
 }
 
-.header_logo {
+.header__logo {
   width: 105px;
   height: 39px;
   position: relative;
@@ -168,7 +168,7 @@
   box-sizing: border-box;
 }
 
-.recipes__video-item {
+.recipes__iframe {
   display: flex;
   flex-direction: column;
 }
