@@ -25,7 +25,7 @@
   background-size: cover;
 }
 
-.header__menu {
+.nav {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -40,7 +40,7 @@
   left: 0px;
 }
 
-.header__nav-links {
+.nav__links {
   display: flex;
   align-items: flex-end;
   list-style-type: none;
@@ -110,6 +110,7 @@
   justify-content: space-between;
   align-items: flex-end;
   box-sizing: border-box;
+  z-index: 2;
 }
 
 .header__paragraph {
