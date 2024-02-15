@@ -11,7 +11,7 @@
   color: #000;
 }
 
-.header {
+.header__content {
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -25,7 +25,7 @@
   background-size: cover;
 }
 
-.nav_links {
+.header__nav__links {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -75,7 +75,7 @@
   letter-spacing: -1px;
 }
 
-.Header__title_azul {
+.header__title__azul {
   font-family: "Noto Serif";
   font-style: italic;
   font-weight: normal;
@@ -84,7 +84,7 @@
   color: #2f80ed;
 }
 
-.description {
+.header__description {
   max-width: 683px;
   margin-top: 28px;
   font-family: "Noto Serif";
