@@ -176,9 +176,13 @@
   border: none;
 }
 
-.recipes__video-caption {
+.recipes__iframe-subtitle {
+  width: 480px;
   display: flex;
-  min-width: 480px;
+  justify-content: space-between;
+}
+
+.recipes__video-caption {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
