@@ -190,5 +190,116 @@
   line-height: 30px;
   text-align: justify;
 }
+.reservation {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url(/images/background_reservation.svg);
+  background-size: cover;
+  box-sizing: border-box;
+  background-color: #d9e7ff;
+}
+
+.reservation__tittle {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 80px;
+  padding: 0;
+}
+
+.reservation__tittle-text {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  margin: 0;
+  padding: 0;
+}
+
+.reservation_form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 120px;
+  padding: 0;
+}
+
+.form__fieldset {
+  display: flex;
+  flex-direction: column;
+  max-width: 385px;
+  row-gap: 32px;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.form_ .form__label {
+  display: flex;
+  flex-direction: column;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 8px;
+}
+.form__input {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  height: 60px;
+  width: 385px;
+}
+.form__input::placeholder {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #838383;
+}
+.form__button {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  height: 60px;
+  background-color: #2f80ed;
+  border-radius: 4px;
+}
+
+.form__button:focus {
+  opacity: 70%;
+}
+
+.form__checkbox {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  column-gap: 12px;
+}
+.form__checkbox-check {
+  display: inline-block;
+  vertical-align: middle;
+  height: 20px;
+  width: 20px;
+  margin-right: 12px;
+  padding: 0;
+}
+.form__checkbox-check:disabled:checked + .form__pseudo-item_type_checkbox {
+  background-color: #2f80ed;
+  background-image: url(/images/check.svg);
+}
+.form__label-checkbox {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+}
 .footer {
 }
