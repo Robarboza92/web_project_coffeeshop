@@ -293,7 +293,7 @@
   margin-right: 12px;
   padding: 0;
 }
-.form__checkbox-check:disabled:checked + .form__checkbox-check_checkbox {
+.form__checkbox-check:disabled:checked {
   background-color: #2f80ed;
   background-image: url(/images/check.svg);
 }
