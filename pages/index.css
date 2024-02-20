@@ -200,7 +200,7 @@
   background-color: #d9e7ff;
 }
 
-.reservation__tittle {
+.reservation__title {
   display: flex;
   justify-content: center;
   margin-top: 100px;
@@ -208,7 +208,7 @@
   padding: 0;
 }
 
-.reservation__tittle-text {
+.reservation__title-text {
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
