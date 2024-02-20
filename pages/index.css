@@ -219,12 +219,15 @@
 }
 
 .reservation__form {
-  display: flex;
-  justify-content: center;
   margin-bottom: 120px;
   padding: 0;
+  box-sizing: border-box;
 }
 
+.form {
+  display: flex;
+  justify-content: center;
+}
 .form__fieldset {
   display: flex;
   flex-direction: column;
