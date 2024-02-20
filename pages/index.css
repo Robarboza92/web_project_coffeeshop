@@ -218,7 +218,7 @@
   padding: 0;
 }
 
-.reservation_form {
+.reservation__form {
   display: flex;
   justify-content: center;
   margin-bottom: 120px;
@@ -236,7 +236,7 @@
   box-sizing: border-box;
 }
 
-.form_ .form__label {
+.form__label {
   display: flex;
   flex-direction: column;
   font-family: Inter;
@@ -244,7 +244,11 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+}
+.form__label-text {
+  padding: 0;
   margin-bottom: 8px;
+  margin-top: 0;
 }
 .form__input {
   font-family: Inter;
