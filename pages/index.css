@@ -1,4 +1,15 @@
-.page {
+@import url(../vendor/normalize.css);
+@import url(../blocks/page.css);
+@import url(../blocks/about.css);
+@import url(../blocks/card.css);
+@import url(../blocks/footer.css);
+@import url(../blocks/form.css);
+@import url(../blocks/header.css);
+@import url(../blocks/menu.css);
+@import url(../blocks/nav.css);
+@import url(../blocks/recipes.css);
+@import url(../blocks/reservation.css);
+/*.page {
   min-width: 1100px;
   max-width: 1600px;
   margin: auto;
@@ -9,9 +20,8 @@
 
   justify-content: center;
   color: #000;
-}
-
-.header {
+}*/
+/*.header {
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -24,8 +34,7 @@
   background-position: center;
   background-size: cover;
 }
-
-.nav {
+  .nav {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -121,11 +130,11 @@
   line-height: 20px;
   color: #838383;
 }
-
+*/
 .content {
 }
 
-.recipes {
+/*.recipes {
   display: flex;
   justify-content: center;
   padding: 100px 0px 215px 80px;
@@ -189,8 +198,8 @@
   font-size: 20px;
   line-height: 30px;
   text-align: justify;
-}
-.reservation {
+}*/
+/*.reservation {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -218,8 +227,8 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-.form {
+*/
+/*.form {
   display: flex;
   justify-content: center;
 }
@@ -299,6 +308,6 @@
   display: inline-block;
   vertical-align: middle;
   margin: 0;
-}
+}*/
 .footer {
 }
