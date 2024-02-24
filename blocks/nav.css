@@ -8,7 +8,7 @@
   display: flex;
   align-items: flex-end;
   list-style-type: none;
-  font-family: "Inter";
+  font-family: "Inter", arial, "Times New Roman";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -19,7 +19,7 @@
 }
 
 .header__nav-link {
-  font-family: "Inter";
+  font-family: "Inter", arial, "Times New Roman";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
