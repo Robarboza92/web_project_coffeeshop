@@ -63,12 +63,3 @@
   line-height: 30px;
   text-align: justify;
 }
-.reservation {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  background-image: url(/images/background_reservation.svg);
-  background-size: cover;
-  box-sizing: border-box;
-  background-color: #d9e7ff;
-}

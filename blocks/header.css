@@ -78,3 +78,11 @@
   line-height: 20px;
   color: #838383;
 }
+.header__nav-link {
+  font-family: "Inter", arial, "Times New Roman";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none;
+}
