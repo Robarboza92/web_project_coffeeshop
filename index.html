@@ -128,7 +128,12 @@
             <fieldset class="form__fieldset">
               <label class="form__label">
                 Nome *
-                <input class="form__input" type="text" placeholder="Nome" />
+                <input
+                  class="form__input"
+                  type="text"
+                  placeholder="Nome"
+                  required
+                />
               </label>
               <label class="form__label"
                 >Número de convidados *
@@ -138,11 +143,12 @@
                   min="1"
                   max="8"
                   placeholder="1-8"
+                  required
                 />
               </label>
               <label class="form__label"
                 >Data e hora *
-                <input class="form__input" type="datetime-local" />
+                <input class="form__input" type="datetime-local" required />
               </label>
               <label class="form__label"
                 >Seu e-mail *
@@ -150,6 +156,7 @@
                   class="form__input"
                   type="email"
                   placeholder="email@email.com"
+                  required
                 />
               </label>
               <button class="form__button" type="submit">
@@ -157,7 +164,11 @@
               </button>
               <div class="form__checkbox">
                 <label class="form__label form__label-checkbox">
-                  <input class="form__checkbox-check" type="checkbox" />
+                  <input
+                    class="form__checkbox-check"
+                    type="checkbox"
+                    required
+                  />
                   Eu concordo com os termos de uso
                 </label>
               </div>

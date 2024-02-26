@@ -80,6 +80,7 @@
 }
 .header__nav-link {
   font-family: "Inter", arial, "Times New Roman";
+  color: #000;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
