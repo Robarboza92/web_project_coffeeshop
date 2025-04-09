@@ -192,8 +192,10 @@
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
-  margin: 100px auto 80px;
-  padding: 0;
+
+  margin: auto;
+  margin-bottom: 80px;
+  padding-top: 120px;
 }
 .form {
   max-width: 385px;
