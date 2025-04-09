@@ -44,7 +44,7 @@ input::placeholder {
   color: #838383;
 }
 
-.form__buton {
+.form__button {
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -58,11 +58,11 @@ input::placeholder {
   width: 100%;
 }
 
-.form__buton:hover {
+.form__button:hover {
   opacity: 70%;
 }
 
-.form__buton__label {
+.button__label {
   display: flex;
   justify-content: center;
   padding-top: 32px;
