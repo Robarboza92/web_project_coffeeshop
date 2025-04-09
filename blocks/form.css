@@ -62,7 +62,7 @@ input::placeholder {
   opacity: 70%;
 }
 
-.button__label {
+.form__button-label {
   display: flex;
   justify-content: center;
   padding-top: 32px;
