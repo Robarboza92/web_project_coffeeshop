@@ -195,17 +195,19 @@
   margin: 100px auto 80px;
   padding: 0;
 }
-.reservation__form {
-  margin: 0 auto 120px;
-  width: 100%;
-}
 .form {
   max-width: 385px;
+  width: 100%;
+  margin-bottom: 120px;
+}
+.reservation__form {
+  margin: 0 auto 120px;
 }
 
 .form__fieldset {
   display: flex;
   flex-direction: column;
+  margin: auto;
 }
 
 .form__label {
@@ -251,6 +253,7 @@ input::placeholder {
   border-radius: 4px;
   background-color: #2f80ed;
   color: #fff;
+  width: 100%;
 }
 
 .label {
