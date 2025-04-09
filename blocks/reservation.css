@@ -20,3 +20,7 @@
   margin-top: 0;
   padding-top: 100px;
 }
+
+.reservation__form {
+  margin: 0 auto 120px;
+}

@@ -3,9 +3,6 @@
   width: 100%;
   margin-bottom: 120px;
 }
-.reservation__form {
-  margin: 0 auto 120px;
-}
 
 .form__fieldset {
   display: flex;
@@ -65,7 +62,7 @@ input::placeholder {
   opacity: 70%;
 }
 
-.label {
+.form__buton__label {
   display: flex;
   justify-content: center;
   padding-top: 32px;
