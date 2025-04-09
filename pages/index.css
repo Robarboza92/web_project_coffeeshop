@@ -184,6 +184,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: #000;
 }
 .reservation__title {
   font-family: "Inter", Arial, sans-serif;
@@ -222,9 +223,23 @@
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
-
   margin-bottom: 32px;
+  border-color: #838383;
 }
+
+input::-webkit-input-placeholder {
+  color: #838383;
+}
+input::-moz-placeholder {
+  color: #838383;
+}
+input::-ms-input-placeholder {
+  color: #838383;
+}
+input::placeholder {
+  color: #838383;
+}
+
 .form__buton {
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
@@ -234,6 +249,8 @@
   max-width: 385px;
   height: 60px;
   border-radius: 4px;
+  background-color: #2f80ed;
+  color: #fff;
 }
 
 .label {
@@ -256,4 +273,8 @@
 
 .form__button:hover {
   opacity: 70%;
+}
+
+.form__input-color {
+  color: #6f6f6f;
 }
